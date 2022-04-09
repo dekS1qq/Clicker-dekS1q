@@ -35,7 +35,8 @@ header {
 
 .active-item {
   padding: 15px;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .active-item .item-info .item-count p {
@@ -52,6 +53,10 @@ header {
 .item-description {
   display: flex;
   align-items: center;
+}
+
+#item-info-computer .item-description {
+  width: 32%;
 }
 
 .statistic-img,
@@ -129,6 +134,7 @@ header {
 
 .shop {
   padding: 15px;
+  overflow-y: scroll;
 }
 
 .item {
@@ -226,7 +232,7 @@ footer {
 }
 
 .show-more {
-  height: 200px;
+  height: 230px;
 }
 
 .arrow-animation {
