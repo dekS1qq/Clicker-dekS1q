@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dekS1q-Clicker</title>
+
+    <link rel="stylesheet" href="src/CSSfiles/style.css" />
+  </head>
+  <body>
+    <header>dekS1q Clicker 1.1.3v</header>
+
+    <main>
+      <div class="main-content">
+        <div class="active-item">
+          <p>Statistics</p>
+          <!-- Statystyki okularów -->
+          <div class="item-info hidden" id="item-info-glasses">
+            <div class="statistic-img">
+              <img src="img/glasses.png" />
+            </div>
+            <div class="item-description">
+              <h4>Glasses</h4>
+            </div>
+            <div class="item-count" id="item-count-glasses">
+              <p>Owned: 0</p>
+            </div>
+            <div class="more-info">
+              <div class="more-static" id="more-glasses-static-mps">
+                <b>money per secons: </b>0$
+              </div>
+              <div class="more-static" id="more-glasses-static-total-earn">
+                <b>Total earn money: </b>0$
+              </div>
+              <div class="more-static" id="more-glasses-static-spent-money">
+                <b>Money spent on at item: </b>0$
+              </div>
+            </div>
+            <div class="more-info-arrow">
+              <img class="arrow" src="img/arrow.png" />
+            </div>
+          </div>
+          <!-- Statystyki zegarka -->
+          <div class="item-info hidden" id="item-info-watch">
+            <div class="statistic-img">
+              <img src="img/watch.png" />
+            </div>
+            <div class="item-description">
+              <h4>Watch</h4>
+            </div>
+            <div class="item-count" id="item-count-watch">
+              <p>Owned: 0</p>
+            </div>
+            <div class="more-info">
+              <div class="more-static" id="more-watch-static-mps">
+                <b>money per secons: </b>0$
+              </div>
+              <div class="more-static" id="more-watch-static-total-earn">
+                <b>Total earn money: </b>0$
+              </div>
+              <div class="more-static" id="more-watch-static-spent-money">
+                <b>Money spent on at item: </b>0$
+              </div>
+            </div>
+            <div class="more-info-arrow">
+              <img class="arrow" src="img/arrow.png" />
+            </div>
+          </div>
+          <!-- Statystyki rowera -->
+          <div class="item-info hidden" id="item-info-bike">
+            <div class="statistic-img">
+              <img src="img/bike.png" />
+            </div>
+            <div class="item-description">
+              <h4>Bike</h4>
+            </div>
+            <div class="item-count" id="item-count-bike">
+              <p>Owned: 0</p>
+            </div>
+            <div class="more-info">
+              <div class="more-static" id="more-bike-static-mps">
+                <b>money per secons: </b>0$
+              </div>
+              <div class="more-static" id="more-bike-static-total-earn">
+                <b>Total earn money: </b>0$
+              </div>
+              <div class="more-static" id="more-bike-static-spent-money">
+                <b>Money spent on at item: </b>0$
+              </div>
+            </div>
+            <div class="more-info-arrow">
+              <img class="arrow" src="img/arrow.png" />
+            </div>
+          </div>
+          <!-- Statystyki komputera -->
+          <div class="item-info hidden" id="item-info-computer">
+            <div class="statistic-img">
+              <img src="img/computer.png" />
+            </div>
+            <div class="item-description">
+              <h4>Computer</h4>
+            </div>
+            <div class="item-count" id="item-count-computer">
+              <p>Owned: 0</p>
+            </div>
+            <div class="more-info">
+              <div class="more-static" id="more-computer-static-mps">
+                <b>money per secons: </b>0$
+              </div>
+              <div class="more-static" id="more-computer-static-total-earn">
+                <b>Total earn money: </b>0$
+              </div>
+              <div class="more-static" id="more-computer-static-spent-money">
+                <b>Money spent on at item: </b>0$
+              </div>
+            </div>
+            <div class="more-info-arrow">
+              <img class="arrow" src="img/arrow.png" />
+            </div>
+          </div>
+        </div>
+        <div class="clicker">
+          <div class="click-element">
+            <img src="img/click.jpg" alt="Click me!" />
+          </div>
+          <p class="money-per-second">Money per second: 0.00$</p>
+          <p class="money">Money: 0.00$</p>
+        </div>
+        <div class="shop">
+          <p>Shop</p>
+          <div class="item">
+            <div>
+              <img src="img/glasses.png" />
+            </div>
+            <div class="description">
+              <h5>Glasses</h5>
+              <p>money per second: 0.5$</p>
+              <div id="price-glasses" class="red">100 $</div>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="img/watch.png" />
+            </div>
+            <div class="description">
+              <h5>Watch</h5>
+              <p>money per second: 10$</p>
+              <div id="price-watch" class="red">2000 $</div>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="img/bike.png" />
+            </div>
+            <div class="description">
+              <h5>Bike</h5>
+              <p>money per second: 120$</p>
+              <div id="price-bike" class="red">25000 $</div>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <img src="img/computer.png" />
+            </div>
+            <div class="description">
+              <h5>Computer</h5>
+              <p>money per second: 250$</p>
+              <div id="price-computer" class="red">50000 $</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>dekS1q Clicker - Wykonał Damian Kogut</footer>
+
+    <script type="module" src="src/JSfiles/app.js"></script>
+  </body>
+</html>
