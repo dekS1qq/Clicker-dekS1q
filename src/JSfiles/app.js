@@ -40,7 +40,7 @@ onload = () => {
     gameModule.showMoneyPerSecond.innerText =
       "Money per second: " + moneyPerSecond.toFixed(2) + "$";
     score += addMoneyPerSecond;
-    gameModule.money.innerText = "Money: " + score.toFixed(2) + " $";
+    gameModule.money.innerText = "Money: " + score.toFixed(2) + "$";
 
     addMoneyPerSecondGlasses += moneyPerSecondGlasses / 5;
     addMoneyPerSecondWatch += moneyPerSecondWatch / 5;
