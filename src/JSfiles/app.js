@@ -26,10 +26,16 @@ let moneySpentForBike = 0;
 let moneyPerSecondComputer = 0;
 let addMoneyPerSecondComputer = 0;
 let moneySpentForComputer = 0;
+let saveScore = 0;
+
+saveScore = localStorage.getItem("score");
+score = Number(saveScore);
 
 onload = () => {
   //Aktualizowanie pieniędzy
   let addMoney = setInterval(() => {
+    localStorage.setItem("score", score);
+
     addMoneyPerSecond = moneyPerSecond / 5;
     gameModule.showMoneyPerSecond.innerText =
       "Money per second: " + moneyPerSecond.toFixed(2) + "$";
