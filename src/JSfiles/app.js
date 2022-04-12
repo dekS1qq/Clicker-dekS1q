@@ -128,7 +128,7 @@ onload = () => {
 
 gameModule.clickElement.addEventListener("click", () => {
   score += actualMoneyPerClick;
-  gameModule.money.innerText = "Money: " + score.toFixed(2) + " $";
+  gameModule.money.innerText = "Money: " + score.toFixed(2) + "$";
 });
 
 //Kupowanie przedmiotu - OKULARY
